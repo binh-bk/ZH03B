@@ -38,8 +38,11 @@ def get_cmd(mode):
 	
 
 
-def read_serial(ser):
+def read_serial(ser, flush=True):
 	''' read and record with matched heads'''
+	if flush:
+		ser.reset_input_buffer()
+		time.sleep(2)
 	recv = b''
 	inp = ser.read()
 	if inp == b'\x42':
