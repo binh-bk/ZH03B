@@ -32,4 +32,4 @@ PM1: 17, PM2.5: 21, PM10: 23 in ug/m3
 ```
 ### 2. Run wit data logger in request - get reading mode
 - run `examples_log_data.py`. This allows to run the sensors until terminated the script. The data is saved into a CSV file
-[CSV file](Feb2020/zh03B_demo2.csv)
+[CSV file](https://github.com/binh-bk/ZH03B/blob/master/Feb2020/zh03b_demo2.csv)
