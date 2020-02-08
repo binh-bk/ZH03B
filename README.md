@@ -1,6 +1,7 @@
 # ZH03B
-air quality sensor (Winsen ZH03B) for PM1, PM2.5 and PM10 output by Python
-[datasheet](datasheet/zh03-series-laser-dust-module-v2_0.pdf)
+- Air quality sensor (Winsen ZH03B) for PM1, PM2.5 and PM10 output by Python
+- Check out the [datasheet](datasheet/zh03-series-laser-dust-module-v2_0.pdf)
+
 ## Wiring up
 - Use a USB UART adapter and plug to USB port is the easiest way to get started.
 - Pin 4 on ZH03B <----> TX pin on adapter
@@ -13,6 +14,7 @@ air quality sensor (Winsen ZH03B) for PM1, PM2.5 and PM10 output by Python
 <p align="center">
   <img src="photos/ZH03B_2.jpg"/>
 </p>
+
 ## Run mode
 ### Upload
 The sensor constantly output the PM1, PM2.5 and PM10 readings
@@ -31,5 +33,3 @@ PM1: 17, PM2.5: 21, PM10: 23 in ug/m3
 ### 2. Run wit data logger in request - get reading mode
 - run `examples_log_data.py`. This allows to run the sensors until terminated the script. The data is saved into a CSV file
 [CSV file](Feb2020/zh03B_demo2.csv)
-
-
