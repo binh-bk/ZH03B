@@ -30,7 +30,7 @@ with addition to turn on and turn the sensor. The fan was tested as it can be tu
 Sat Feb  8 16:03:57 2020
 PM1: 17, PM2.5: 21, PM10: 23 in ug/m3
 ```
-### 2. Run sensor and log datain request - get reading mode
+### 2. Run sensor and log data in request - get reading (QA) mode
 - run `examples_log_data.py`. This allows to run the sensors until terminated the script. The data is saved into a CSV file
 [CSV file](https://github.com/binh-bk/ZH03B/blob/master/Feb2020/zh03b_demo2.csv)
 
